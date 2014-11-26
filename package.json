@@ -1,0 +1,38 @@
+{
+  "name": "ndarray-to-polar",
+  "version": "1.0.0",
+  "description": "Convert a 2D ndarray to log-polar coordinates",
+  "main": "polar.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "ndarray-ops": "^1.2.2",
+    "ndarray-warp": "^1.0.1"
+  },
+  "devDependencies": {
+    "baboon-image": "^1.0.0",
+    "ndarray-imshow": "^1.0.0",
+    "luminance": "^1.0.3",
+    "ndarray": "^1.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/ndarray-log-polar.git"
+  },
+  "keywords": [
+    "log",
+    "polar",
+    "plot",
+    "ndarray"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/ndarray-log-polar/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/ndarray-log-polar"
+}
