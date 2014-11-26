@@ -1,5 +1,5 @@
 {
-  "name": "ndarray-to-polar",
+  "name": "ndarray-log-polar",
   "version": "1.0.0",
   "description": "Convert a 2D ndarray to log-polar coordinates",
   "main": "polar.js",

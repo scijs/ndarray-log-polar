@@ -1,4 +1,4 @@
-ndarray-to-polar
+ndarray-log-polar
 ================
 Given a 2D ndarray, convert it from cartesian to log-polar coordinates.
 
