@@ -7,7 +7,7 @@ Given a 2D ndarray, convert it from cartesian to log-polar coordinates.
 ```javascript
 var baboon = require('luminance')(require('baboon-image'))
 var ndarray = require('ndarray')
-var toPolar = require('ndarray-to-polar')
+var toPolar = require('ndarray-log-polar')
 var imshow = require('ndarray-imshow')
 
 imshow(ndarray(new Float64Array(256*256), [256,256]), baboon, {colormap: 'grey'})
@@ -17,7 +17,7 @@ imshow(ndarray(new Float64Array(256*256), [256,256]), baboon, {colormap: 'grey'}
 
 # API
 
-#### `require('ndarray-to-polar')(polar, rect[, center])`
+#### `require('ndarray-log-polar')(polar, rect[, center])`
 Converts an image from Cartesian to polar coordinates.
 
 * `polar` gets the resulting image in polar coordinates
